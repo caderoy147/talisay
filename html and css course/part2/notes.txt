@@ -1,3 +1,39 @@
 CSS meaning cascading style sheets make you html pretty
 
 
+<style>
+  
+</style>
+
+css code is written their and bellow is html
+
+<style>
+  button{
+    background-color: red;
+  }
+</style>
+
+button{} there is called css sylectors so which element are we targetting
+in that case all button will become red
+
+background-color: red; --> css property what are you changing
+property : value; --> semicolon just like regular code
+
+
+<button class="subscribe-button">
+  SUBSCRIBE
+</button>
+
+class attributes are like vairbles. anyways they label elements so we can differentait
+which to target
+
+to tagert a class its like:
+
+.subscribe-button{
+  you styels. anyways notice the .
+}
+
+mutiple elemts can have the same class 
+
+so button2 class ="a1"
+buttopn 3, 4, 5, class ="a1" is allowed
