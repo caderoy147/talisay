@@ -1,0 +1,25 @@
+HTML means Hypertext Markup Language
+Instruction to computer. not code just kinda place holder in a UI
+
+HTML Elements
+<button >Hello </button>
+<p> paragarph of text </p>
+<p></p> <----- this is called syntax
+<a></a> <-- anchor or link to another website
+
+HTML Attributes (modifies elements)
+<a href="https://www.youtube.com/">
+the href is what you call HTML Atriibute = modifes how a elemt behaves
+
+===========================
+<a> anchor attributes
+1.href="somewebsite"
+2.target="_blank" --> actualy code // it opens a new tab
+===========================
+
+Syntax rules for HTML
+1. All elements contain in a tag. <p></p> oppening and a closing tag
+2. attibute and the element must have space.
+3. href --> attribute name. = "[attribute value]" 
+4. Elements can have muliple attributes. separated by space
+5. spaces are ignored 1 space only is given for in word elemnets <>here</>
