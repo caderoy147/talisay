@@ -1,0 +1,33 @@
+#HOVERS, TRANSITIONS, SHADOWS
+
+  .subscribe-button:hover{
+    
+  }
+
+as you can see this means that the styles applied here will only appear
+when we hover to the button
+
+hover:{} any many oder is know as puesdo-class
+
+:active{} - when you click an element
+
+btw opacity is a neet trick to make it appearlighter
+basically its reduing the amount of colors. it's value is 0-1 so 0.7 valid
+1 being normal. and 0 completly see through. opacity  = fade out
+
+well this is good but in desing the transistion happens too fast. its ugly so
+we mange it by using TRANSITIONS
+transistion: opacity 1s;
+so syntax is what to transiotn or what style? then 2nd is for how long?
+
+for multiple trasitions     
+transition: background-color 1s,
+    color 1s;
+
+always put transitions on the base css style
+
+SHADOWS - just another css property
+box-shadow: a b c black
+a-horizontal pos
+b-vertical pos
+c- blur
