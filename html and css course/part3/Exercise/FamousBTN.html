@@ -2,20 +2,102 @@
 <html lang="en">
 
 <style>
+  button{
+    cursor: pointer;
+  }
   .uber{
-    background-color: grey;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 120px;
+    border-style: solid;
+    transition: opacity 0.15s;
+  }
+  .uber:hover{
+    opacity: 0.8;
+  }
+  .uber:active{
+    opacity: 0.6;
   }
   .amazon{
-    background-color: yellow;
+    background-color: rgb(255,216,20);
+    color: black;
+    border-radius: 15px;
+    height: 30px;
+    width: 130px;
+    border-style: solid;
+    border-color: rgb(255,216,20);
+   
   }
+  .amazon:hover{
+    background-color: rgb(243, 193, 28);
+  }
+  .amazon:active{
+    background-color: rgb(243, 175, 28);
+    border-color: blue;
+  }
+
   .github{
-    background-color:  lightgreen;
+    background-color:  rgb(46,164,79);
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    height: 30px;
+    width: 80px;
+    border:none;
+    transition: background-color 0.15s;
   }
-  .bootstrap{
-    background-color: blueviolet;
+  .github:hover{
+    background-color:  rgb(50, 187, 89);
   }
-  .linkedln{
-    background-color: lightblue;
+  .github:active{
+    background-color:  rgb(40, 204, 87);
+  }
+  .bootstrap-getstarted-btn{
+    background-color: rgb(121,82,179);
+    color: white;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    transition: background-color 0.15s;
+  }
+  .bootstrap-getstarted-btn:hover{
+    background-color: rgb(114, 77, 168);
+  } 
+  .bootstrap-getstarted-btn:active{
+    background-color: rgb(105, 72, 155);
+  }
+  .bootstrap-download-btn{
+    background-color: white;
+    color: gray;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    transition: background-color 0.15s;
+  }
+  .linkedln-apply-btn{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 200px;
+  } 
+   .linkedln-apply-btn:hover{
+    background-color: rgb(10, 95, 180);
+  }
+  .linkedln-save-btn{
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border-color: rgb(10, 102, 194);
+    border-style:solid;
+    font-weight: bold;
+    border-radius: 15px;
+    height: 30px;
+    width: 50px;
   }
 </style>
 
@@ -48,30 +130,30 @@
 </h3>
 
 <button class="github">
-  Sign ip
+  Sign up
 </button>
 
 <h3>
 3d.Boostrap
 </h3>
 
-<button class="bootstrap">
+<button class="bootstrap-getstarted-btn">
   Get Started
 </button>
 
-<button class="bootstrap">
+<button class="bootstrap-download-btn">
   Download
 </button>
 
 <h3>
 3e.Linkedln
 </h3>
-
-<button class="linkedln">
-  Request now
+ 
+<button class="linkedln-apply-btn">
+  Apply on company website
 </button>
 
-<button class="linkedln">
+<button class="linkedln-save-btn">
   Save
 </button>
 
