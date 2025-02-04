@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+
+  button{
+    cursor: pointer;
+  }
+
+  a{
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .pagination-back-btn{
+    margin-right:5px;
+    padding: 5px;
+  }
+  .pagination-next-btn{
+    margin-left:5px;
+    padding: 5px;
+  }
+
+  .stretch-btn, .m-one-btn, .m-two-btn, .m-three-btn{
+    background-color: rgb(5, 151, 5);
+    border: none;
+    color: white;
+    padding: 10px;
+    transition: padding 0.15s;
+  }
+  .stretch-btn:hover{
+    padding:15px 25px;
+  }
+  .d-btn {
+    background-color: rgb(5, 151, 5);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    
+    /* 3D effect */
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.d-btn:active {
+    /* Moves button down to simulate being pressed */
+    transform: translate(4px, 4px);
+    
+    /* Reduce shadow to make it look pressed */
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+}
+.m-one-btn, .m-two-btn, .m-three-btn{
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: margin 0.15s, padding 0.15s;
+}
+.m-one-btn:hover, .m-two-btn:hover, .m-three-btn:hover{
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+</style>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOX MODEL</title>
+</head>
+
+<body>
+  <h3>
+    4h.Paginaton
+  </h3>
+  <button class="pagination-back-btn">
+    Back
+  </button>
+  <a href="">1</a>
+  <a href="">2</a>
+  <a href="">3</a>
+  <a href="">4</a>
+  <a href="">5</a>
+  <button class="pagination-next-btn">
+    Next
+  </button>
+
+  <h3>
+    4i.Stretch
+  </h3>
+  <button class="stretch-btn">
+    Stretch
+  </button>
+
+  <h3>
+    4j.3D Click
+  </h3>
+  <button class="d-btn">
+    Shadow
+  </button>
+
+  <h3>
+    4K.Margin and padding together
+  </h3>
+  <button class="m-one-btn">
+    One
+  </button>
+  <button class="m-two-btn">
+    Two
+  </button>
+  <button class="m-three-btn">
+    Three
+  </button>
+</body>
+</html>

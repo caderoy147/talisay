@@ -1,0 +1,18 @@
+Chrome dev tools
+or dev tools in general.
+basically the inspect button
+
+theres a pointer button that allws you to click and shoes the elememnt
+explor on your own nigga
+
+CSS BOX MODEL
+so height and width. thse are absolute spaces cotrolled by the borders
+if the text is tooo large it overflows.
+in box model we donts use height/width
+we use padding or the space widthin the box
+streaching the area not the parimeter
+
+vertical-align: top; //we use the box itself to align
+html by default is text alinged
+
+basically box model dont used height. just visualize boxes
