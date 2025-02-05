@@ -1,0 +1,31 @@
+IMAGES AND TEXT BOXES (serach box)
+
+loading IMAGES1. inspect 
+then download put on your desired folder
+void elemetn <img class=""src={parth}>
+
+anyways 
+    .thumbnail{
+      width: 300px;
+      height: 300px;
+      object-fit: contain;
+      object-position: top;
+      border-color: red;
+      border-width: 2px;
+      border-style: solid;
+    }
+
+this is an image these are the attributes it can be sett to
+explore
+
+this shit advace
+
+another void ele is  <input>
+
+allows you to create search boxes or place something
+
+<input type="text">
+alos 
+input type ="checkbox"
+
+<input type="text" placeholder="Search">

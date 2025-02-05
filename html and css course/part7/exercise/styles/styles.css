@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-items: center; /* Centers items vertically */
+  justify-content: center; /* Centers items horizontally */
+  gap: 20px; /* Adds spacing between images */
+  height: 300px; /* Adjust as needed */
+}
+
+.dragon, .dragon-two, .dragon-three {
+  display: block;
+}
+
+.dragon {
+  width: 200px;
+  border-radius: 30px;
+}
+
+.dragon-two {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.dragon-three {
+  width: 200px;
+  border-radius: 100px;
+}
