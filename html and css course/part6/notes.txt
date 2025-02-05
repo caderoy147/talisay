@@ -1,0 +1,41 @@
+THE HTML STRUCTURE
+
+<!DOCTYPE html> --> tellss browers use verion latest of html
+
+<html> --> container you can say == entire web page
+
+
+
+  <head> --> some code like the tabs not visible on page
+    <title>youtube</title>
+
+  </head>
+
+  
+  <body> -- the body actualy inside of a page all visible elements
+    
+  </body>
+
+
+
+</html> == desing to contain one body one head.
+
+notice elemnts are within elements. this is called nesting
+
+
+in this model we create a new file called styles.css
+to connet them to our html 
+wenn need to use void elements such as <link> no closing tag
+
+CSS SHOULD BE AT HEAD
+
+href = "styles.css" --> this means search beside so same directory
+if othjer folder you'll need to specify
+
+is styles was on a stles folder
+then 
+
+href="styles/styles.css" ---> file paths
+
+
+fonts can be used from the internet search google fonts and copy paste iot to the head
