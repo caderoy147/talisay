@@ -1,0 +1,33 @@
+TEXT NOTES
+
+  .video-title{
+    font-family: Arial, Helvetica, sans-serif;//text font
+    font-size: 30px; //size
+    font-weight: bold; //thickness 
+    font-style: italic;//italics
+    text-align: center; //justify,left etc..
+    width: 300px; // better than br apperently more responsive
+    line-height: 24px; // line spacing
+  }
+
+  
+<p>
+  3.4M views &middot; dfghg
+</p>
+
+ &middot;  ---> this is called html ebntity just search in goolgle, like a text emoji
+
+<p> by deafult come with margin top and bottom y deafult. 14px maybe
+
+selector specificity
+thats why class has more prioty than elemnents in css
+
+<span class="shop-link">Shop now &gt;</span>
+notice this this is inside <p></p> so this is caslled a stext element.
+
+text elements 
+<u></u>
+<strong></strong> <--dont put a class thiese
+<span class=""></span>  <--most generic no style. can give class 
+
+so to add spaces we actualyy have to use span then say margin left.
