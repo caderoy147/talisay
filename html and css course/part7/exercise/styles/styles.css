@@ -1,3 +1,6 @@
+.body{
+  font-family: Arial, Helvetica, sans-serif;
+}
 .container {
   display: flex;
   align-items: center; /* Centers items vertically */
@@ -26,3 +29,67 @@
   width: 200px;
   border-radius: 100px;
 }
+
+.first{
+  padding: 9px 18px;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+}
+.second{
+  padding: 9px 18px;
+  width: 340px;
+  border-radius: 19px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+.email{
+  margin: 4px 0px;
+  color: gray;
+  font-size: 11px;
+}
+.third{
+  padding: 9px 18px;
+  width: 250px;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+} 
+.terms{
+  color: gray;
+  margin: 10px 0px;
+  font-size: 11px;
+}
+.agree-btn{
+  background-color: rgba(48, 94, 247, 0.863);
+  justify-content: center;
+  padding: 15px 90px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+.yeah{
+  vertical-align:middle;
+}
+.dragon-four {
+  width: 40px;
+  border-radius: 100px;
+  vertical-align:middle;
+
+}
+.fourth{
+  padding: 10px 1px;
+  width: 200px;
+  border:none;
+  vertical-align:middle;
+}
+.tweet{
+  padding: 8px 15px;
+  border-radius: 20px;
+  color:white;
+  background-color: rgba(0, 82, 190, 0.623);
+  border: none;
+  font-weight: bold;
+  vertical-align:middle;
+}
+
